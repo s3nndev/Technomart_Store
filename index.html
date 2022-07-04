@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Интернет-магазин «Техномарт»</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
   <header>
     <div>
       <a href="index.html">
-        <img src="/img/logo/logo-technomart.svg" alt="Логотип интернет-магазина «Техномарт»">
+        <img src="/img/logo/logo-header.svg" width="108" height="18" alt="Логотип интернет-магазина «Техномарт»">
       </a>
 
       <div>
@@ -138,7 +139,7 @@
         </p>
         <figure>
           <a href="catalog.html">
-            <img src="/img/advantages/Layer 99.jpg" width="620" height="266" alt="Картинка человек с перфоратором">
+            <img src="/img/icon_advantages/photo-1.jpg" width="620" height="266" alt="Фото рабочий держит перфоратор">
           </a>
         </figure>
         <a href="catalog.html">
@@ -146,6 +147,25 @@
         </a>
         <button type="button" disabled>Назад</button>
         <button type="button">Вперед</button>
+      </div>
+
+      <div class="visually-hidden">
+        <h3>
+          Дрели
+        </h3>
+        <p>
+          Соседям на радость!
+        </p>
+        <figure>
+          <a href="catalog.html">
+            <img src="/img/icon_advantages/photo-2.jpg" width="620" height="266" alt="Фото рабочий держит дрель">
+          </a>
+        </figure>
+        <a href="catalog.html">
+          Открыть каталог
+        </a>
+        <button type="button">Назад</button>
+        <button type="button" disabled>Вперед</button>
       </div>
     </section>
 
@@ -161,27 +181,27 @@
       <ul>
         <li>
           <h3>Перфоратор BOSCH BFG 9000</h3>
-          <a href="#"><img src="#" alt=""></a>
+          <a href="#"><img src="/img/catalog_products/bosch-bfg-9000.jpg" width="184" height="164" alt=""></a>
           <p><s>32500 Р.</s></p>
           <p>25500 Р.</p>
         </li>
         <li>
           <h3>Перфоратор BOSCH BFG 3000</h3>
           <p>New</p>
-          <a href="#"><img src="#" alt=""></a>
+          <a href="#"><img src="/img/catalog_products/bosch-bfg-3000.jpg" width="127" height="112" alt=""></a>
           <p><s>22500 Р.</s></p>
           <p>15500 Р.</p>
         </li>
         <li>
           <h3>Перфоратор BOSCH BFG 6000</h3>
-          <a href="#"><img src="#" alt=""></a>
+          <a href="#"><img src="/img/catalog_products/bosch-bfg-6000.jpg" width="144" height="128" alt=""></a>
           <p><s>30500 Р.</s></p>
           <p>25500 Р.</p>
         </li>
         <li>
           <h3>Перфоратор BOSCH BFG 2000</h3>
           <p>New</p>
-          <a href="#"><img src="#" alt=""></a>
+          <a href="#"><img src="/img/catalog_products/bosch-bfg-2000.jpg" width="127" height="112" alt=""></a>
           <p><s>22500 Р.</s></p>
           <p>12500 Р.</p>
         </li>
@@ -199,28 +219,28 @@
 
       <ul>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип BOSCH"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/bosch.jpg" width="126" height="37" alt="Логотип BOSCH"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип Makita"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/makita.jpg" width="123" height="40" alt="Логотип Makita"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип DeWALT"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/dewalt.jpg" width="146" height="44" alt="Логотип DeWALT"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип Интерскол"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/interskol.jpg" width="200" height="75" alt="Логотип Интерскол"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип HITACHI"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/hitachi.jpg" width="169" height="31" alt="Логотип HITACHI"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип LG"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/lg.jpg" width="121" height="73" alt="Логотип LG"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип AEG"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/aeg.jpg" width="151" height="96" alt="Логотип AEG"></a>
         </li>
         <li>
-          <a href="blank.html"><img src="#" alt="Логотип Metabo"></a>
+          <a href="blank.html"><img src="/img/popular_manufacturers/metabo.jpg" width="204" height="69" alt="Логотип Metabo"></a>
         </li>
       </ul>
     </section>
@@ -258,6 +278,8 @@
           Ведь мы неплохо заработаем, <br>
           поднимая его на ваш этаж!
         </p>
+
+        <img src="/img/service/service_car.png" alt="Картинка грузовик">
       </div>
     </section>
 
@@ -304,7 +326,10 @@
         заехав в наш офис:
       </p>
 
-      <!-- Здесь будет карта -->
+      <div style="width: 100%" class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.800863847982!2d30.312217316186533!3d59.96862666664114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696315a4bdf3f1b%3A0x1c8b299cbcd21256!2z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4!5e0!3m2!1sru!2sru!4v1656925129900!5m2!1sru!2sru" width="300" height="158" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
 
       <p>
         <a href="#">Заблудились? Напишите нам!</a>
@@ -363,17 +388,17 @@
     <ul>
       <li>
         <a href="#">
-          <img src="#" alt="Вконтакте">
+          <img src="/img/icon_small/icon-vk.svg" alt="Вконтакте">
         </a>
       </li>
       <li>
         <a href="#">
-          <img src="#" alt="Фейсбук">
+          <img src="/img/icon_small/icon-fb.svg" alt="Фейсбук">
         </a>
       </li>
       <li>
         <a href="#">
-          <img src="#" alt="Инстаграмм">
+          <img src="/img/icon_small/icon-insta.svg" alt="Инстаграмм">
         </a>
       </li>
     </ul>
@@ -400,19 +425,24 @@
     </h2>
 
     <form action="url" method="post" class="modal-form">
+     <p>
       <label for="modal-name">
         <span>Ваше имя:</span> <br>
         <input type="text" placeholder="Имя Фамилия">
       </label>
-      <label for="modal-email">
-        <span>Ваш e-mail:</span> <br>
-        <input type="email" placeholder="email@example.com">
-      </label>
-      <label for="modal-message">
+     </p>
+      <p>
+        <label for="modal-email">
+          <span>Ваш e-mail:</span> <br>
+          <input type="email" placeholder="email@example.com">
+        </label>
+      </p>
+      <p><label for="modal-message">
         <span>Текст письма:</span> <br>
         <textarea name="modal-textarea" id="modal-messege-input" cols="30" rows="10" placeholder="В свободной форме">
          </textarea>
       </label>
+    </p>
       <button type="submit" class="modal-button button">Отправить</button>
     </form>
     <div class="modal-close">
@@ -425,8 +455,9 @@
     <h2 class="modal-map visually-hidden">
       Модальное окно с картой
     </h2>
-
-    <!-- В РАБОТЕ -->
+    
+    <iframe class="big-iframe" width="943" height="449" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13442.887330235975!2d30.344360205094226!3d59.94380405497639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c8b299cbcd21256!2z0L3QsNCxLiDQoNC10LrQuCDQmtCw0YDQv9C-0LLQutC4!5e0!3m2!1sru!2sru!4v1656925656118!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </section>
 </body>
 
